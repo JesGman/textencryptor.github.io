@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="style.css">
+        <script type ="text/javascript" scr="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img src="Imágenes/textencryptor.png">
+        </header>
+
+        <main>
+            <section class="verificar">
+                <textarea type="text" class="input-text" id="mensaje" placeholder="Ingrese el texto aquí" cols="40" rows="6"></textarea>
+                <img class="simbolito" src="Imágenes/Vectorsimbolo.png">
+                <h6>Sólo letras minúsculas y sin acentos</h6>
+
+                <div>
+                    <button class="boton1" type="button" id="encriptar" onclick="btnencriptar()">Encriptar</button>
+                    <button class="boton2" type="button" id="desencriptar">Desencriptar</button>
+                </div>
+            </section>
+
+            
+            <section>
+                <div>
+               <!--  <img class="dibujo" id="dibujo" src="Imágenes/dibujo.png"> -->
+                </div>
+            
+               <div>
+                    <textarea type="text" class="input-text-area" id="resultado" cols="18" rows="8"></textarea>
+                   <!-- <h6 class="msjnoencontrado">Ningún mensaje fue encontrado</h6>
+                    <h6 class="aclaracion">Ingresa el texto que deseas encriptar o desencriptar</h6> -->
+                    <button class="boton3" type="button" id="copiar">Copiar</button>
+                                   
+                </div>
+            </section>
+
+        </main>
+      
+    </body>
+    
+    <footer>
+        <h6>- Realizado por Jesica Grossman para el Programa ONE -</h6>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</html>  
